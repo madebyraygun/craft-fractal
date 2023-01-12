@@ -1,6 +1,6 @@
 # Craft CMS + Fractal
 
-This is a code repo to accompany my 2022 DotAll talk [Implementing component-driven design systems with Craft + Fractal(https://craftcms.com/events/dot-all-2022/sessions/implementing-component-driven-design-systems-with-craft-fractal).
+This is a code repo to accompany my 2022 DotAll talk [Implementing component-driven design systems with Craft + Fractal](https://craftcms.com/events/dot-all-2022/sessions/implementing-component-driven-design-systems-with-craft-fractal). The accompanying slides can be found at https://madebyraygun.com/projects/dotall-2022/presentation.
 
 This is an installable Craft CMS installation, although the asset build step is not set up. We're relying on static assets that may need to be copied over to the `public/dist` folder.
 

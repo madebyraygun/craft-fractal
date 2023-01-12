@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: blogLanding
+name: 'Blog Landing'
+propagationMethod: all
+siteSettings:
+  23b29cec-7ec1-4cce-ac21-f0af9cf3349b: # Craft Fractal Demo
+    enabledByDefault: true
+    hasUrls: true
+    template: blog/_index
+    uriFormat: blog
+type: single

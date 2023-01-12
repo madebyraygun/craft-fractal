@@ -1,0 +1,557 @@
+{
+  "@blockquote": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/blockquote/blockquote.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/blockquote/blockquote.twig",
+    "handle": "blockquote"
+  },
+  "@button": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button.twig",
+    "handle": "button"
+  },
+  "@button--button-secondary": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button.twig",
+    "handle": "button--button-secondary"
+  },
+  "@button--button-info": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button.twig",
+    "handle": "button--button-info"
+  },
+  "@button--text-only": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button.twig",
+    "handle": "button--text-only"
+  },
+  "@button--close": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button--close.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button--close.twig",
+    "handle": "button--close"
+  },
+  "@button--search": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button--search.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button--search.twig",
+    "handle": "button--search"
+  },
+  "@button--play": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button--play.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button--play.twig",
+    "handle": "button--play"
+  },
+  "@button--text-and-icon": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button--text-and-icon.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button--text-and-icon.twig",
+    "handle": "button--text-and-icon"
+  },
+  "@button--mobile-hamburger": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/button/button--mobile-hamburger.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/button/button--mobile-hamburger.twig",
+    "handle": "button--mobile-hamburger"
+  },
+  "@checkbox-form-field": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/checkbox-form-field/checkbox-form-field.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/checkbox-form-field/checkbox-form-field.twig",
+    "handle": "checkbox-form-field"
+  },
+  "@form-submit-button": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/form-submit-button/form-submit-button.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/form-submit-button/form-submit-button.twig",
+    "handle": "form-submit-button"
+  },
+  "@form-submit-button--search-submit": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/form-submit-button/form-submit-button.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/form-submit-button/form-submit-button.twig",
+    "handle": "form-submit-button--search-submit"
+  },
+  "@icon": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon.twig",
+    "handle": "icon"
+  },
+  "@icon--close": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--close.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--close.twig",
+    "handle": "icon--close"
+  },
+  "@icon--email": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--email.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--email.twig",
+    "handle": "icon--email"
+  },
+  "@icon--expand": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--expand.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--expand.twig",
+    "handle": "icon--expand"
+  },
+  "@icon--facebook": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--facebook.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--facebook.twig",
+    "handle": "icon--facebook"
+  },
+  "@icon--info": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--info.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--info.twig",
+    "handle": "icon--info"
+  },
+  "@icon--instagram": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--instagram.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--instagram.twig",
+    "handle": "icon--instagram"
+  },
+  "@icon--linkedin": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--linkedin.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--linkedin.twig",
+    "handle": "icon--linkedin"
+  },
+  "@icon--nav-next": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--nav-next.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--nav-next.twig",
+    "handle": "icon--nav-next"
+  },
+  "@icon--nav-prev": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--nav-prev.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--nav-prev.twig",
+    "handle": "icon--nav-prev"
+  },
+  "@icon--play": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--play.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--play.twig",
+    "handle": "icon--play"
+  },
+  "@icon--search": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--search.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--search.twig",
+    "handle": "icon--search"
+  },
+  "@icon--twitter": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--twitter.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--twitter.twig",
+    "handle": "icon--twitter"
+  },
+  "@icon--website": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--website.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--website.twig",
+    "handle": "icon--website"
+  },
+  "@icon--youtube": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/icon/icon--youtube.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/icon/icon--youtube.twig",
+    "handle": "icon--youtube"
+  },
+  "@image": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/image/image.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/image/image.twig",
+    "handle": "image"
+  },
+  "@image--image-with-filter": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/image/image.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/image/image.twig",
+    "handle": "image--image-with-filter"
+  },
+  "@image--image-with-caption": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/image/image.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/image/image.twig",
+    "handle": "image--image-with-caption"
+  },
+  "@input-search-field": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/input-search-field/input-search-field.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/input-search-field/input-search-field.twig",
+    "handle": "input-search-field"
+  },
+  "@input-select": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/input-select/input-select.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/input-select/input-select.twig",
+    "handle": "input-select"
+  },
+  "@input-text-field": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/input-text-field/input-text-field.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/input-text-field/input-text-field.twig",
+    "handle": "input-text-field"
+  },
+  "@loader": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/loader/loader.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/loader/loader.twig",
+    "handle": "loader"
+  },
+  "@logo": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/logo/logo.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/logo/logo.twig",
+    "handle": "logo"
+  },
+  "@radio-form-field": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/radio-form-field/radio-form-field.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/radio-form-field/radio-form-field.twig",
+    "handle": "radio-form-field"
+  },
+  "@table": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/table/table.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/table/table.twig",
+    "handle": "table"
+  },
+  "@text": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/text/text.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/text/text.twig",
+    "handle": "text"
+  },
+  "@text--heading-2": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/text/text.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/text/text.twig",
+    "handle": "text--heading-2"
+  },
+  "@text--heading-3": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/text/text.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/text/text.twig",
+    "handle": "text--heading-3"
+  },
+  "@text--heading-4": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/text/text.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/text/text.twig",
+    "handle": "text--heading-4"
+  },
+  "@text--overline": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/text/text.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/text/text.twig",
+    "handle": "text--overline"
+  },
+  "@textarea-form-field": {
+    "src": "/Users/dalton/Sites/library-core/library/components/02-elements/textarea-form-field/textarea-form-field.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/02-elements/textarea-form-field/textarea-form-field.twig",
+    "handle": "textarea-form-field"
+  },
+  "@article-card": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/article-card/article-card.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/article-card/article-card.twig",
+    "handle": "article-card"
+  },
+  "@banner": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/banner/banner.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/banner/banner.twig",
+    "handle": "banner"
+  },
+  "@banner--text-only": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/banner/banner--text-only.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/banner/banner--text-only.twig",
+    "handle": "banner--text-only"
+  },
+  "@banner--article": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/banner/banner--article.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/banner/banner--article.twig",
+    "handle": "banner--article"
+  },
+  "@banner--page-404": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/banner/banner--page-404.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/banner/banner--page-404.twig",
+    "handle": "banner--page-404"
+  },
+  "@banner--search-results": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/banner/banner--search-results.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/banner/banner--search-results.twig",
+    "handle": "banner--search-results"
+  },
+  "@banner--homepage": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/banner/banner--homepage.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/banner/banner--homepage.twig",
+    "handle": "banner--homepage"
+  },
+  "@breadcrumbs": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/breadcrumbs/breadcrumbs.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/breadcrumbs/breadcrumbs.twig",
+    "handle": "breadcrumbs"
+  },
+  "@cta-card": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/cta-card/cta-card.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/cta-card/cta-card.twig",
+    "handle": "cta-card"
+  },
+  "@cta-card--image": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/cta-card/cta-card--image.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/cta-card/cta-card--image.twig",
+    "handle": "cta-card--image"
+  },
+  "@embed": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/embed/embed.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/embed/embed.twig",
+    "handle": "embed"
+  },
+  "@faq-section": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/faq-section/faq-section.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/faq-section/faq-section.twig",
+    "handle": "faq-section"
+  },
+  "@featured-page-card": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/featured-page-card/featured-page-card.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/featured-page-card/featured-page-card.twig",
+    "handle": "featured-page-card"
+  },
+  "@feed-element": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/feed-element/feed-element.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/feed-element/feed-element.twig",
+    "handle": "feed-element"
+  },
+  "@form-signup": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/form-signup/form-signup.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/form-signup/form-signup.twig",
+    "handle": "form-signup"
+  },
+  "@form-signup--signup-modal": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/form-signup/form-signup--signup-modal.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/form-signup/form-signup--signup-modal.twig",
+    "handle": "form-signup--signup-modal"
+  },
+  "@formie-form": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/formie-form/formie-form.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/formie-form/formie-form.twig",
+    "handle": "formie-form"
+  },
+  "@intro": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/intro/intro.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/intro/intro.twig",
+    "handle": "intro"
+  },
+  "@language-selector": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/language-selector/language-selector.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/language-selector/language-selector.twig",
+    "handle": "language-selector"
+  },
+  "@map": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/map/map.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/map/map.twig",
+    "handle": "map"
+  },
+  "@media-search-form": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/media-search-form/media-search-form.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/media-search-form/media-search-form.twig",
+    "handle": "media-search-form"
+  },
+  "@node-list": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/node-list/node-list.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/node-list/node-list.twig",
+    "handle": "node-list"
+  },
+  "@notification": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/notification/notification.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/notification/notification.twig",
+    "handle": "notification"
+  },
+  "@page-card": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/page-card/page-card.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/page-card/page-card.twig",
+    "handle": "page-card"
+  },
+  "@pagination": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/pagination/pagination.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/pagination/pagination.twig",
+    "handle": "pagination"
+  },
+  "@primary-navigation": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/primary-navigation/primary-navigation.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/primary-navigation/primary-navigation.twig",
+    "handle": "primary-navigation"
+  },
+  "@rich-text": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/rich-text/rich-text.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/rich-text/rich-text.twig",
+    "handle": "rich-text"
+  },
+  "@search-bar": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/search-bar/search-bar.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/search-bar/search-bar.twig",
+    "handle": "search-bar"
+  },
+  "@sidebar-subnavigation": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/sidebar-subnavigation/sidebar-subnavigation.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/sidebar-subnavigation/sidebar-subnavigation.twig",
+    "handle": "sidebar-subnavigation"
+  },
+  "@social": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/social/social.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/social/social.twig",
+    "handle": "social"
+  },
+  "@social--article-share": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/social/social--article-share.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/social/social--article-share.twig",
+    "handle": "social--article-share"
+  },
+  "@team-card": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/team-card/team-card.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/team-card/team-card.twig",
+    "handle": "team-card"
+  },
+  "@video": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/video/video.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/video/video.twig",
+    "handle": "video"
+  },
+  "@video--video----vimeo": {
+    "src": "/Users/dalton/Sites/library-core/library/components/03-modules/video/video.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/03-modules/video/video.twig",
+    "handle": "video--video----vimeo"
+  },
+  "@cb-anchor": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/anchor/anchor.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/anchor/anchor.twig",
+    "handle": "cb-anchor"
+  },
+  "@cb-button-group": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/button-group/button-group.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/button-group/button-group.twig",
+    "handle": "cb-button-group"
+  },
+  "@cb-cta": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/cta/cta.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/cta/cta.twig",
+    "handle": "cb-cta"
+  },
+  "@cb-cta--with-sidebar": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/cta/cta.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/cta/cta.twig",
+    "handle": "cb-cta--with-sidebar"
+  },
+  "@cb-embed": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/embed/embed.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/embed/embed.twig",
+    "handle": "cb-embed"
+  },
+  "@cb-faq": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/faq/faq.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/faq/faq.twig",
+    "handle": "cb-faq"
+  },
+  "@cb-faq--multisection": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/faq/faq--multisection.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/faq/faq--multisection.twig",
+    "handle": "cb-faq--multisection"
+  },
+  "@cb-faq--with-sidebar": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/faq/faq.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/faq/faq.twig",
+    "handle": "cb-faq--with-sidebar"
+  },
+  "@cb-featured-pages": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/featured-pages/featured-pages.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/featured-pages/featured-pages.twig",
+    "handle": "cb-featured-pages"
+  },
+  "@cb-featured-pages--with-sidebar": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/featured-pages/featured-pages.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/featured-pages/featured-pages.twig",
+    "handle": "cb-featured-pages--with-sidebar"
+  },
+  "@cb-form": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/form/form.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/form/form.twig",
+    "handle": "cb-form"
+  },
+  "@cb-heading": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/heading/heading.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/heading/heading.twig",
+    "handle": "cb-heading"
+  },
+  "@cb-imported-content": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/imported-content/imported-content.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/imported-content/imported-content.twig",
+    "handle": "cb-imported-content"
+  },
+  "@cb-multiple-images": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/multiple-images/multiple-images.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/multiple-images/multiple-images.twig",
+    "handle": "cb-multiple-images"
+  },
+  "@cb-pullquote": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/pullquote/pullquote.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/pullquote/pullquote.twig",
+    "handle": "cb-pullquote"
+  },
+  "@cb-rich-text": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/rich-text/rich-text.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/rich-text/rich-text.twig",
+    "handle": "cb-rich-text"
+  },
+  "@cb-single-image": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/single-image/single-image.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/single-image/single-image.twig",
+    "handle": "cb-single-image"
+  },
+  "@cb-single-image--medium-image": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/single-image/single-image.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/single-image/single-image.twig",
+    "handle": "cb-single-image--medium-image"
+  },
+  "@cb-single-image--small-image": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/single-image/single-image.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/single-image/single-image.twig",
+    "handle": "cb-single-image--small-image"
+  },
+  "@cb-team": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/team/team.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/team/team.twig",
+    "handle": "cb-team"
+  },
+  "@cb-team--with-sidebar": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/team/team.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/team/team.twig",
+    "handle": "cb-team--with-sidebar"
+  },
+  "@cb-team--experts-sidebar": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/team/team--experts-sidebar.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/team/team--experts-sidebar.twig",
+    "handle": "cb-team--experts-sidebar"
+  },
+  "@cb-text-with-media": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/text-with-media/text-with-media.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/text-with-media/text-with-media.twig",
+    "handle": "cb-text-with-media"
+  },
+  "@cb-text-with-media--image-right": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/text-with-media/text-with-media.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/text-with-media/text-with-media.twig",
+    "handle": "cb-text-with-media--image-right"
+  },
+  "@cb-text-with-media--video": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/text-with-media/text-with-media--video.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/text-with-media/text-with-media--video.twig",
+    "handle": "cb-text-with-media--video"
+  },
+  "@cb-timeline": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/timeline/timeline.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/timeline/timeline.twig",
+    "handle": "cb-timeline"
+  },
+  "@cb-video": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/video/video.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/video/video.twig",
+    "handle": "cb-video"
+  },
+  "@cb-video--video----vimeo": {
+    "src": "/Users/dalton/Sites/library-core/library/components/04-content-blocks/video/video.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/04-content-blocks/video/video.twig",
+    "handle": "cb-video--video----vimeo"
+  },
+  "@articles": {
+    "src": "/Users/dalton/Sites/library-core/library/components/05-groups/articles/articles.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/05-groups/articles/articles.twig",
+    "handle": "articles"
+  },
+  "@footer": {
+    "src": "/Users/dalton/Sites/library-core/library/components/05-groups/footer/footer.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/05-groups/footer/footer.twig",
+    "handle": "footer"
+  },
+  "@masthead": {
+    "src": "/Users/dalton/Sites/library-core/library/components/05-groups/masthead/masthead.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/05-groups/masthead/masthead.twig",
+    "handle": "masthead"
+  },
+  "@media-search": {
+    "src": "/Users/dalton/Sites/library-core/library/components/05-groups/media-search/media-search.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/05-groups/media-search/media-search.twig",
+    "handle": "media-search"
+  },
+  "@macros": {
+    "src": "/Users/dalton/Sites/library-core/library/components/macros/macros.twig",
+    "target": "/Users/dalton/Sites/library-core/craft/templates/_components/macros/macros.twig",
+    "handle": "macros"
+  }
+}

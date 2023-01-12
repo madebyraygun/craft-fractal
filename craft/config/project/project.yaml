@@ -1,0 +1,51 @@
+dateModified: 1664574703
+email:
+  fromEmail: dev@madebyraygun.com
+  fromName: 'Craft Fractal Demo'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  media:
+    hasUrls: true
+    name: Media
+    settings:
+      path: /var/www/html/public/media
+    type: craft\fs\Local
+    url: //craft-fractal.ddev.site/media
+meta:
+  __names__:
+    00d5293f-c595-4229-ab4c-687edf5a9347: 'Thumbnail Image' # Thumbnail Image
+    1b8f1171-60a8-4d25-8df2-0b20026a0354: Homepage # Homepage
+    01e9256d-9229-4f82-8fa3-36355c032240: Button # Button
+    6cd52d44-6c93-429b-a7c1-a87162270a90: 'Blog Landing' # Blog Landing
+    6d5d8a7d-7aca-4c16-a09f-2b96c35f7ce6: Heading # Heading
+    8c6a8557-69a2-43af-a534-f476221260e1: Blog # Blog
+    23b29cec-7ec1-4cce-ac21-f0af9cf3349b: 'Craft Fractal Demo' # Craft Fractal Demo
+    84fa1655-cb3a-41a7-b5a2-fc92e0503f3b: Default # Default
+    480cf7fb-9e88-4d8d-ab3a-89609019d811: Default # Default
+    494d7626-3f19-4fbb-a0a4-91ef6ae18520: Media # Media
+    262870c0-236d-4181-835f-d41891b2f7df: Homepage # Homepage
+    ad230828-777a-412a-bd44-9773cf886711: 'Blog Landing' # Blog Landing
+    b69f25c9-5a02-4d6a-85cb-8a4370610c5c: Homepage # Homepage
+    c2c7eceb-bbf3-4219-9f2b-fb85582b7f41: Common # Common
+    e98e9da9-6bb9-4267-a2b1-7d7d0efa9ae3: 'Intro Text' # Intro Text
+plugins:
+  fractal-loader:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Craft Fractal Demo'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,29 @@
+.image {
+  width: 100%;
+  &.has-caption { margin-bottom: 0.938rem; }
+}
+
+.has-filter {
+  position: relative;
+  
+  &:before {
+    background-color: #000;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    left: 0;
+    mix-blend-mode: screen;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  img {
+    filter: contrast(110%) brightness(110%) sepia(30%) grayscale(100%);
+    flex: 1 0 100%;
+    mix-blend-mode: normal;
+    opacity: 1;
+    position: relative;
+  }
+}

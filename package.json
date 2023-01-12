@@ -1,0 +1,33 @@
+{
+  "author": "Raygun Design, LLC",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.7",
+    "concurrently": "^7.0.0",
+    "cssnano": "^5.0.17",
+    "@faker-js/faker": "^6.1.2",
+    "@frctl/fractal": "^1.5.6",
+    "@frctl/twig": "^1.2.8",
+    "dotenv": "^16.0.3",
+    "postcss": "^8.4.7",
+    "postcss-cli": "^9.1.0",
+    "prepend-file": "^2.0.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.23",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2"
+  },
+  "engines": {
+    "node": "^16"
+  },
+  "scripts": {
+    "tailwind:css": "postcss ./src/css/app.css -o ./public/dist/css/app.min.css --verbose",
+    "fractal:start": "fractal start --sync",
+    "fractal:build": "fractal build",
+    "fractal:export": "fractal export-components",
+    "tailwind:build": "npm run css -- --env 'production'"
+  }
+}

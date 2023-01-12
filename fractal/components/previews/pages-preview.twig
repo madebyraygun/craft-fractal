@@ -1,0 +1,9 @@
+{% extends '@preview' %}
+
+{% block content %}
+  {% include '@masthead' with masthead %}
+  <main id="main">
+    {{ yield | raw }}
+  </main>
+  {% include '@footer' with footer %}
+{% endblock %}

@@ -1,0 +1,15 @@
+<div><div class="container mx-auto">
+	{% include '@heading--h1' with heading %}
+	{% include '@text--large' with introText %}
+	{% include '@subscribe' with subscribe %}
+
+    <div class="pt-4 lg:pt-8 border-t border-grey-lighter">
+      {% for story in stories %}
+        {% include '@story-card' with story %}
+      {% endfor %}
+    </div>
+
+    {% include '@pagination' %}
+  </div>
+</div>
+</div>

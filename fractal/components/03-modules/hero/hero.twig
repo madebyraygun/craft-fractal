@@ -1,0 +1,9 @@
+<div class="border-b border-grey-lighter pb-8 sm:pb-12">
+  {% include '@tag' with { text: tag } %}
+  {% include '@heading--h2' with { text: title } %}
+  <div class="flex items-center pt-5 sm:pt-8">
+    {% include '@text--light' with {text: date } %}
+    {% include '@separator' %}
+    {% include '@text--light' with { text: readTime } %}
+  </div>
+</div>

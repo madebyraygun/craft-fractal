@@ -1,0 +1,10 @@
+<div class="container mx-auto">
+ 
+  {% include '@cb-intro' with intro %}
+
+  <div class="py-16 lg:py-20">
+    {% for story in stories %}
+      {% include '@story-card' with story %}
+    {% endfor %}
+  </div>
+</div>

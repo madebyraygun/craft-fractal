@@ -1,0 +1,177 @@
+{
+  "@avatar": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/avatar/avatar.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/avatar/avatar.twig",
+    "handle": "avatar"
+  },
+  "@button": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/button/button.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/button/button.twig",
+    "handle": "button"
+  },
+  "@button--submit": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/button/button--submit.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/button/button--submit.twig",
+    "handle": "button--submit"
+  },
+  "@heading": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/heading/heading.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/heading/heading.twig",
+    "handle": "heading"
+  },
+  "@heading--h1": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/heading/heading--h1.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/heading/heading--h1.twig",
+    "handle": "heading--h1"
+  },
+  "@heading--h2": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/heading/heading--h2.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/heading/heading--h2.twig",
+    "handle": "heading--h2"
+  },
+  "@heading--h3": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/heading/heading--h3.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/heading/heading--h3.twig",
+    "handle": "heading--h3"
+  },
+  "@icon": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/icon/icon.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/icon/icon.twig",
+    "handle": "icon"
+  },
+  "@icon--story": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/icon/icon--story.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/icon/icon--story.twig",
+    "handle": "icon--story"
+  },
+  "@image": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/image/image.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/image/image.twig",
+    "handle": "image"
+  },
+  "@image--image-with-caption": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/image/image.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/image/image.twig",
+    "handle": "image--image-with-caption"
+  },
+  "@input": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/input/input.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/input/input.twig",
+    "handle": "input"
+  },
+  "@input--email": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/input/input--email.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/input/input--email.twig",
+    "handle": "input--email"
+  },
+  "@logo": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/logo/logo.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/logo/logo.twig",
+    "handle": "logo"
+  },
+  "@logo--simple": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/logo/logo--simple.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/logo/logo--simple.twig",
+    "handle": "logo--simple"
+  },
+  "@separator": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/separator/separator.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/separator/separator.twig",
+    "handle": "separator"
+  },
+  "@tag": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/tag/tag.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/tag/tag.twig",
+    "handle": "tag"
+  },
+  "@text": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/text/text.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/text/text.twig",
+    "handle": "text"
+  },
+  "@text--large": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/text/text--large.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/text/text--large.twig",
+    "handle": "text--large"
+  },
+  "@text--light": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/02-elements/text/text--light.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/02-elements/text/text--light.twig",
+    "handle": "text--light"
+  },
+  "@hero": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/hero/hero.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/hero/hero.twig",
+    "handle": "hero"
+  },
+  "@navigation": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/navigation/navigation.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/navigation/navigation.twig",
+    "handle": "navigation"
+  },
+  "@navigation--mobile": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/navigation/navigation--mobile.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/navigation/navigation--mobile.twig",
+    "handle": "navigation--mobile"
+  },
+  "@pagination": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/pagination/pagination.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/pagination/pagination.twig",
+    "handle": "pagination"
+  },
+  "@social-icons": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/social-icons/social-icons.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/social-icons/social-icons.twig",
+    "handle": "social-icons"
+  },
+  "@social-sharing": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/social-sharing/social-sharing.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/social-sharing/social-sharing.twig",
+    "handle": "social-sharing"
+  },
+  "@story-card": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/story-card/story-card.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/story-card/story-card.twig",
+    "handle": "story-card"
+  },
+  "@subscribe": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/subscribe/subscribe.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/subscribe/subscribe.twig",
+    "handle": "subscribe"
+  },
+  "@theme-switch": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/03-modules/theme-switch/theme-switch.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/03-modules/theme-switch/theme-switch.twig",
+    "handle": "theme-switch"
+  },
+  "@cb-blockquote": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/04-content-blocks/blockquote/blockquote.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/04-content-blocks/blockquote/blockquote.twig",
+    "handle": "cb-blockquote"
+  },
+  "@cb-image": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/04-content-blocks/image/image.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/04-content-blocks/image/image.twig",
+    "handle": "cb-image"
+  },
+  "@cb-intro": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/04-content-blocks/intro/intro.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/04-content-blocks/intro/intro.twig",
+    "handle": "cb-intro"
+  },
+  "@cb-rich-text": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/04-content-blocks/rich-text/rich-text.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/04-content-blocks/rich-text/rich-text.twig",
+    "handle": "cb-rich-text"
+  },
+  "@footer": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/05-globals/footer/footer.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/05-globals/footer/footer.twig",
+    "handle": "footer"
+  },
+  "@masthead": {
+    "src": "/Users/dalton/Sites/craft-fractal/fractal/components/05-globals/masthead/masthead.twig",
+    "target": "/Users/dalton/Sites/craft-fractal/craft/templates/_components/05-globals/masthead/masthead.twig",
+    "handle": "masthead"
+  }
+}

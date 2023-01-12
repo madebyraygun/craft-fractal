@@ -1,0 +1,19 @@
+columnSuffix: nddkmiib
+contentColumnType: text
+fieldGroup: c2c7eceb-bbf3-4219-9f2b-fb85582b7f41 # Common
+handle: introText
+instructions: null
+name: 'Intro Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

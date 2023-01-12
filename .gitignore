@@ -1,0 +1,91 @@
+# Craft runtime and backups folders
+# ----------------------------------------------------------------------
+app/*
+craft/storage/**/*
+!craft/storage/rebrand
+!craft/storage/rebrand/**/*
+craft/vendor/**/*
+
+
+# Uploaded files
+# ----------------------------------------------------------------------
+public/uploads/**/*
+public/imager/**/*
+public/cpresources/**/*
+public/dist/**/*
+public/media/**/*
+public/documents/**/*
+public/logos/**/*
+
+
+# Application files
+# ----------------------------------------------------------------------
+sql/*
+
+
+# Misc files
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+.komodotools
+_notes
+dwsync.xml
+logs/*
+node_modules/**/*
+web/assets/node_modules/
+/.env
+**/.env
+.env.example
+/.idea
+/vendor
+.DS_Store
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directory
+node_modules/
+
+# Build directory
+build/
+
+# Misc
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Settings
+drone.json
+
+# Lock files
+composer.phar
+/public/local-phpinfo.php
+/public/icons
+/public/logos
+/public/imports
+*.code-workspace
+
+#fractal
+library/manifest.json
+library/public/dist/*
+/craft/templates/_components/**/*
+!/craft/templates/_components/.gitkeep
+/craft/components-map.json

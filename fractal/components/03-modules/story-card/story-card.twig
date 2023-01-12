@@ -1,0 +1,10 @@
+<div class="border-b border-grey-lighter mt-8 pb-8">
+  {% include '@tag' with { text: tag } %}
+  <a href="{{ url }}">{% include '@heading--h3' with { text: title } %}</a>
+
+  <div class="flex items-center pt-4">
+    {% include '@text--light' with { text: date } %}
+    {% include '@separator' %}
+    {% include '@text--light' with { text: readTime } %}
+  </div>
+</div>

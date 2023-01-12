@@ -1,0 +1,43 @@
+fieldLayouts:
+  1d9c461d-542a-4fa3-80ab-bcbdaf676d42:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 733ba6e9-f85c-4c56-a23c-851814d25e3a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0f63b921-9aa2-419f-82ef-efd903bb28f3
+        userCondition: null
+handle: blogLanding
+hasTitleField: false
+name: 'Blog Landing'
+section: ad230828-777a-412a-bd44-9773cf886711 # Blog Landing
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

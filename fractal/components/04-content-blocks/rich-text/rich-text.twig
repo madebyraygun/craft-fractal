@@ -1,0 +1,11 @@
+<div class="border-b border-grey-lighter py-8 lg:py-10">
+	<div class="flex items-center pb-6">
+		{% if heading|default %}
+			{% include '@heading--h3' with heading %}
+		{% endif %}
+	</div>
+	<div>
+		{% if text|default %}
+			{% include '@text' with text %}
+		{% endif %}
+</div>

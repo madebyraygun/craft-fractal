@@ -1,0 +1,9 @@
+<div class="container mx-auto">
+  <div class="flex items-center justify-between py-6 lg:py-10">
+    {% include '@logo' with { siteName: siteName|default } %}
+    {% include '@theme-switch' %}
+    {% include '@navigation' %}
+  </div>
+</div>
+  {% include '@navigation--mobile' %}
+</div>

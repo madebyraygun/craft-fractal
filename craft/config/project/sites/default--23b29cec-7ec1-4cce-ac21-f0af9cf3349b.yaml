@@ -1,0 +1,9 @@
+baseUrl: 'http://craft-fractal.ddev.site'
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'Craft Fractal Demo'
+primary: true
+siteGroup: 84fa1655-cb3a-41a7-b5a2-fc92e0503f3b # Default
+sortOrder: 1

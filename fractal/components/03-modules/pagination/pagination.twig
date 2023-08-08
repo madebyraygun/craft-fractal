@@ -1,21 +1,67 @@
-<div class="flex pt-8 pb-8 lg:pb-16 lg:pt-16">
-  <span
-    class="cursor-pointer border-2 border-secondary px-3 py-1 font-body font-medium text-secondary"
-    >1</span
-  >
-  <span
-    class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary"
-    >2</span
-  >
-  <span
-    class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary"
-    >3</span
-  >
-  <span
-    class="group ml-3 flex cursor-pointer items-center border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary"
-    >Next
-    <i
-      class="bx bx-right-arrow-alt ml-1 text-primary transition-colors group-hover:text-secondary dark:text-white"
-    ></i
-  ></span>
-</div>
+{% if totalPages|default and totalPages > 1 %}
+  <ul class="flex pt-8 pb-8 lg:pb-16 lg:pt-16">
+    {% if prevPage|default and prevPage.page|default %}
+      <li>
+        <a sprig s-val:page={{prevPage.page}} s-replace="{{sprigTarget|default}}" href="{{prevPage.url|default}}" class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary">
+          <span aria-hidden="true"><</span>
+          <span class="is-sr-only">Previous Page</span>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if firstPage.clamped %}
+      <li>
+        <a sprig s-val:page={{firstPage.page}} s-replace="{{sprigTarget|default}}" href="{{firstPage.url}}" class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary">
+          <span class="is-sr-only">Page </span>{{firstPage.page|default}}
+        </a>
+      </li>
+      {% if firstPage.dots %}
+      ...
+      {% endif %}
+    {% endif %}
+
+    {% for page in getPrevUrls|default %}
+      <li>
+        <a sprig s-val:page={{page.page}} s-replace="{{sprigTarget|default}}" href="{{page.url}}" class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary">
+          <span class="is-sr-only">Page </span>{{page.page|default}}
+        </a>
+      </li>
+    {% endfor %}
+	
+	  <li>
+      <span class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary">
+        <span class="is-sr-only">Current Page</span>
+        <span aria-hidden="true">{{currentPage.page|default}}</span>
+      </span>
+    </li>
+    
+    {% for page in getNextUrls|default %}
+      <li>
+        <a sprig s-val:page={{page.page}} s-replace="{{sprigTarget|default}}" href="{{page.url}}" class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary">
+          <span class="is-sr-only">Page </span>{{page.page|default}}
+        </a>
+      </li>
+    {% endfor %}
+
+    {% if lastPage.clamped %}
+      {% if lastPage.dots %}
+      ...
+      {% endif %}
+      <li>
+        <a sprig s-val:page={{lastPage.page}} s-replace="{{sprigTarget|default}}" href="{{lastPage.url}}" class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary">
+          <span class="is-sr-only">Page </span>{{lastPage.page|default}}
+        </a>
+      </li>
+    {% endif %}
+    
+    {% if nextPage|default and nextPage.page|default %}
+      <li class="pagination__next-wrapper">
+        <a sprig s-val:page={{nextPage.page}} s-replace="{{sprigTarget|default}}" href="{{nextPage.url|default}}" class="ml-3 cursor-pointer border-2 border-primary px-3 py-1 font-body font-medium text-primary transition-colors hover:border-secondary hover:text-secondary dark:border-green-light dark:text-white dark:hover:border-secondary dark:hover:text-secondary">
+          <span class="is-sr-only">Next Page </span>
+          <span aria-hidden="true">></span>
+        </a>
+      </li>
+    {% endif %}
+
+  </ul>
+{% endif %}

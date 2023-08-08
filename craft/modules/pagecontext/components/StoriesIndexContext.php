@@ -13,7 +13,7 @@ class StoriesIndexContext {
       $paginatedResults = self::getPaginatedResults($context);
       $context['stories_index_context'] = [
         'hero' => self::getHero($context, $paginatedResults),
-        'pagination' => Pagination::getPagination($context, $paginatedResults),
+        'pagination' => Pagination::GetContext($paginatedResults),
         'stories' => self::getStories($paginatedResults),
         'pageSeoTitle' => self::getSeoTitle($context, $paginatedResults),
       ];

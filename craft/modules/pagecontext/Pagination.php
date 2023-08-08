@@ -32,7 +32,7 @@ class Pagination {
 
     return [
       'totalPages' => $totalPages,
-      'totalResults' => $pagination->totalResults,
+      'totalResults' => $pagination->total,
       'currentPage' => [
         'page' => $currentPage,
         'url' => ''

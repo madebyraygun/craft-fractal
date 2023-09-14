@@ -6,6 +6,7 @@ use Craft;
 class Pagination {
   // Takes a craft\db\Paginator and returns the context
   public static function GetContext($pagination) {
+    $pagination = $pagination[0];
     $totalPages = $pagination->totalPages;
     $currentPage = $pagination->currentPage;
     $prevPage = $currentPage != 1 ? $currentPage - 1 : null;
@@ -32,7 +33,7 @@ class Pagination {
 
     return [
       'totalPages' => $totalPages,
-      'totalResults' => $pagination->totalResults,
+      'totalResults' => $pagination->total,
       'currentPage' => [
         'page' => $currentPage,
         'url' => ''
